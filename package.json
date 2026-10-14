@@ -1,0 +1,23 @@
+{
+  "name": "pizza-decorator-pattern",
+  "version": "1.0.0",
+  "description": "Система замовлення піци з використанням патерну Декоратор (TypeScript)",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "npx -y tsx src/main.ts",
+    "dev": "npx -y tsx src/main.ts",
+    "build": "npx -y typescript tsc"
+  },
+  "keywords": [
+    "typescript",
+    "decorator",
+    "design-pattern",
+    "oop"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
